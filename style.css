@@ -679,3 +679,16 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+
+
+/*ChatBoT*/
+.chat_icon{
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    font-size: 80px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1000;
+}
