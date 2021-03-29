@@ -681,39 +681,3 @@ footer span a:hover{
 }
 
 
-
-/*ChatBoT*/
-.chat_icon{
-    position: fixed;
-    right: 30px;
-    bottom: 0;
-    font-size: 80px;
-    color: rgb(110, 214, 240);
-    cursor: pointer;
-    z-index: 1000;
-}
-.chat_box{
-    position: fixed;
-    right: 20px;
-    bottom: 100px;
-    width: 400px;
-    height: 75vh;
-    background: #dedede;
-    z-index: 1000;
-    transition: all 0.3s ease-out;
-    transform: scaleY(0);
-}
-.chat_box.active{
-    transform: scaleY(1);
-}
-#messages{
-	padding: 20px;
-}
-.my-conv-form-wrapper textarea{
-	height: 30px;
-	overflow: hidden;
-	resize: none;
-}
-.hidden{
-	display: none !important;
-}
