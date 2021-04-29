@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Section</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/more.css') }}">
+
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+body{
+    background-color: #000;
+}
+.nav-bar{
+    display: flex;
+    padding: 2% 4%;
+}
+.nav-logo img{
+    width: 135px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+.nav-links ul a{
+    color: #ffea00;
+    text-decoration: none;
+    font-size: 18px;
+}
+.hero{
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+    color: #fff;
+}
+h1{
+    font-size: 60px;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffea00;
+    background: url('/static/images/back.png');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+
+
+
+
+</style>
+
+</head>
+<body>
+<!--     
+    <div class="nav-bar">
+            <div class="nav-links">
+                <ul>
+                    <a href="/"><li>Home</li></a>
+                    <a href="about"><li>about</li></a>
+                </ul>
+
+            </div>
+        </div> -->
+        <div class="hero" id="hero">
+            <h1>RESPONSIVE DESIGN, <br> MAKE WEBSITE BY YOURSELF</h1>
+        </div>
+    
+
+
+
+</body>
+</html>
