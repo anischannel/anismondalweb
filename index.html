@@ -39,6 +39,7 @@
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#more" class="menu-btn">More</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#donate" class="menu-btn">Donate Via UPI</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -54,7 +55,7 @@
                 <div class="text-2" id="text-2">
                     <h1>Anis Mondal</h1></div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="dic.gg/godssmpanis">Join Our Discord Server </a>
+                <a href="https://discord.gg/myHuDYjk">Join Our Discord Server </a>
             </div>
         </div>
     </section>
@@ -241,7 +242,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="https://formspree.io/f/xpzokqjw" method="POST">
+                    <form>
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
@@ -265,7 +266,12 @@
         </div>
     </section>
 
-
+<?php 
+if(isset($_POST['submit']))
+{
+    $User_name = $_POST['name'];
+    $
+}
 
 
     <!-- footer section start -->
