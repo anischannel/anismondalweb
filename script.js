@@ -46,14 +46,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Student"],
+        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Student", "24/7 Most Active Discord User"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Student"],
+        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Student", "24/7 Most Active Discord User"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -83,18 +83,18 @@ $(document).ready(function(){
 });
 
 document.oncontextmenu = () => {
-    alert("Pls dont try to copy our codes")
+    alert("Pls dont try to steal the codes Restricted By Anis")
     return false;
 
 }
 
 document.onkeydown = e => {
     if(e.key == "F12"){
-        alert("Pls dont try to copy our codes")
+        alert("Pls dont try to steal the codes Restricted By Anis")
         return false
     }
     if(e.ctrlKey && e.key == "u") {
-        alert("Pls dont try to copy our codes")
+        alert("Pls dont try to steal the codes Restricted By Anis")
         return false
     }
 }
