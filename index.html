@@ -242,20 +242,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form>
+                    <form action="https://formsubmit.co/ecf7d8a5ed30db9f1f9078fed8d62d56" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" name="message" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button">
                             <button type="submit">Send message</button>
@@ -266,12 +266,7 @@
         </div>
     </section>
 
-<?php 
-if(isset($_POST['submit']))
-{
-    $User_name = $_POST['name'];
-    $
-}
+
 
 
     <!-- footer section start -->
@@ -289,7 +284,7 @@ if(isset($_POST['submit']))
 
 
 
-
+  
 
 
 
