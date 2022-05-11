@@ -14,6 +14,24 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     });
+    
+    $(document).bind("contextmenu",function(e) {
+ e.preventDefault();
+});
+    $(document).keydown(function(e){
+    if(e.which === 123){
+       return false;
+    }
+});
+
+    
+    
+    
+    
+    
+    
+    
+    
 
     // slide-up script
     $('.scroll-up-btn').click(function(){
