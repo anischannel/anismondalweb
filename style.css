@@ -166,6 +166,7 @@ section .title::after{
 .home{
     display: flex;
     background: #2f3138 no-repeat center;
+    /* background: black; */
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -184,6 +185,7 @@ section .title::after{
     font-weight: 600;
     margin-left: -3px;
 }
+
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
@@ -600,7 +602,7 @@ footer span a:hover{
         font-size: 25px;
     }
     .home .home-content .text-2{
-        font-size: 70px;
+        font-size: 70px; 
     }
     .home .home-content .text-3{
         font-size: 35px;
@@ -679,5 +681,13 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+
+
+
+
+
+
+
 
 
